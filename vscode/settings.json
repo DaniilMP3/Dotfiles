@@ -1,0 +1,17 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Atom One Dark",
+  "emmet.triggerExpansionOnTab": true,
+  "blade.format.enable": true,
+
+  "[blade]": {
+    "editor.autoClosingBrackets": "always"
+  },
+  "database-client.autoSync": true,
+  "breadcrumbs.enabled": false
+}

@@ -1,0 +1,10 @@
+akamud.vscode-theme-onedark
+cweijan.dbclient-jdbc
+cweijan.vscode-mysql-client2
+esbenp.prettier-vscode
+ms-vscode.cpptools
+naumovs.color-highlight
+onecentlin.laravel-blade
+ritwickdey.liveserver
+usernamehw.errorlens
+vue.volar
