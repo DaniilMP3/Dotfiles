@@ -1,0 +1,91 @@
+* {
+  font-family: "Iosevka Custom" ;
+  font-size: 15px;
+}
+
+window#waybar {
+    background-color: #25252d;
+ }
+
+.modules-right {
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+/* #pulseaudio, */
+/* #network, */
+/* #tray, */
+/* #custom-power{ */
+/* 	padding: 0 15px;	 */
+/* } */
+
+#language,
+#pulseaudio
+{
+    /* padding: 0 10px; */
+}
+
+
+/* #tray{ */
+/*     margin-right: 20px; */
+/* } */
+
+#language,
+#pulseaudio,
+#network{
+    margin: 0 5px;    
+}
+
+#group-utilities{
+    background-color: #2e3440;
+}
+
+#utilities{
+    /* background-color: rgba(171, 62, 65, 0.7); */
+    /* background-color: #845c5f; */
+    border-radius: 25px;
+}
+
+#tray{
+    margin: 0 12px;
+    /* background-color: #a97d66; */
+    border-radius: 25px;
+}
+
+#custom-power{
+    margin: 0 16px;
+}
+
+#custom-spotify{
+	margin-left: 15px;
+}
+
+#workspaces button {
+    /* default text */
+    color: #c5c9c5;            /* foreground */
+    margin-right: 5px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#workspaces button.active {
+    /* active (focused in another monitor) */
+    background-color: #713338;
+}
+
+#workspaces button.focused {
+    /* this monitor + visible */
+    color: #C8C093;            /* active_tab_foreground */
+    background: #c83deb;       /* selection_background */
+    border-radius: 13px;
+}
+
+#workspaces button.persistent {
+    /* sticky / always-open */
+    color: #E6C384;            /* bright color11 */
+}
+
+#workspaces button.empty {
+    /* no windows */
+    color: #a6a69c;            /* inactive_tab_foreground / bright color8 */
+}
