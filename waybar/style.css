@@ -1,0 +1,55 @@
+* {
+  font-family: Iosevka Custom;
+  font-size: 14px;
+  color: #c5c9c5;
+  padding: 0;
+  margin: 0;
+}
+
+window#waybar {
+    background-color: #25252d;
+}
+
+#network {
+    margin-right: 13px;
+}
+
+#pulseaudio {
+    margin-right: 13px;
+}
+
+#tray {
+    margin-right: 13px;
+}
+
+#battery {
+    margin-right: 20px;
+}
+
+#custom-power {
+    margin-right: 12px;
+}
+
+#workspaces button {
+    color: #c5c9c5;
+    margin-right: 5px;
+    padding: 0 2px;
+}
+
+#workspaces button.active {
+    background-color: #713338;
+}
+
+#workspaces button.focused {
+    color: #C8C093;
+    background: #c83deb;
+    border-radius: 13px;
+}
+
+#workspaces button.persistent {
+    color: #E6C384;
+}
+
+#workspaces button.empty {
+    color: #a6a69c;           
+}
