@@ -1,0 +1,7 @@
+
+[Default Applications]
+image/jpeg=org.kde.gwenview.desktop
+image/png=org.kde.gwenview.desktop
+image/giv=org.kde.gwenview.desktop
+image/bmp=org.kde.gwenview.desktop
+video/mp4=mpv.desktop
